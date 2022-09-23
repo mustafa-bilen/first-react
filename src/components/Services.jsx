@@ -1,6 +1,6 @@
 import React from "react";
 import { BiCode } from "react-icons/bi";
-
+import { MdDesignServices, MdOutlineNetworkWifi } from "react-icons/md";
 import ServicesCart from "./ServicesCart";
 
 const Services = () => {
@@ -14,9 +14,11 @@ const Services = () => {
         </p>
       </div>
       <div className="flex flex-col sm:flex-row mt-[3rem] justify-evenly gap-3 sm:mx-[1.6rem]">
-        {/* akodkmlgaskmd*/}
-
-        {/* akodkmlgaskmd*/}
+        {/* comment*/}
+        <ServicesCart title="Programming" icons={<BiCode />} />
+        <ServicesCart title="Design" icons={<MdDesignServices />} />
+        <ServicesCart title="Networking" icons={<MdOutlineNetworkWifi />} />
+        {/* comment*/}
       </div>
     </div>
   );
