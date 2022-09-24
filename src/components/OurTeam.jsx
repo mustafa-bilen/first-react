@@ -16,15 +16,20 @@ const OurTeam = () => {
       {/* sa */}
       <div className="düzenlencek">
         {/*  */}
-        <div className="comp geneldiv">
+        <div className="flex flex-col justify-center items-center">
           <img
             src="https://ca.slack-edge.com/T03LBL87DA8-U03MW5VGEMS-e7da38ceffb6-512"
-            alt="profile"
+            my
+            neck
+            hurts
+            so
+            much
+            alt="profil"
             className="w-[15rem] rounded-full border-[8px] border-gray-400"
           />
-          <div className="budivin icinde">
-            <p>Frank - Mentor</p>
-            <p>Back-end Developer</p>
+          <div className="flex flex-col items-center">
+            <p className="font-semibold text-2xl">Frank - Mentor</p>
+            <p className="hover:underline">Back-end Developer</p>
             <div className="mt-2 flex gap-3">
               <Icons icon={<FiTwitter />} />
               <Icons icon={<FiFacebook />} />
