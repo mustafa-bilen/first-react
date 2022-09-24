@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
+import OurTeam from "./components/OurTeam";
 
 function App() {
   return (
