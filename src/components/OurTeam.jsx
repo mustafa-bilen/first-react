@@ -1,5 +1,5 @@
 import React from "react";
-
+import OurTeamCart from "./OurTeamCart";
 const OurTeam = () => {
   return (
     <div className="py-10 bg-gray-200">
@@ -14,7 +14,21 @@ const OurTeam = () => {
       {/* sa */}
       <div className="düzenlencek">
         {/*  */}
-
+        <OurTeamCart
+          name="Frank-Mentor"
+          talent="Back-end Developer"
+          image="https://ca.slack-edge.com/T03LBL87DA8-U03MW5VGEMS-e7da38ceffb6-512"
+        />
+        <OurTeamCart
+          name="Mustafa Bilen"
+          talent="React Developer"
+          image="https://ca.slack-edge.com/T03LBL87DA8-U03SCRR0XKJ-afef675115ce-512"
+        />
+        <OurTeamCart
+          name="Harvey Watson"
+          talent="Mobile Developer"
+          image="https://ca.slack-edge.com/T03LBL87DA8-U03KULWRB9D-5b17324fe99c-512"
+        />
         {/*  */}
       </div>
     </div>
