@@ -12,7 +12,20 @@ const OurTeamCart = ({ name, image, talent }) => {
         />
         <div className="flex flex-col items-center">
           <p className="font-semibold text-2xl">{name}</p>
-          <p className="hover:underline">{talent}</p>
+          <p className="hover:underline">
+            {talent ? (
+              talent
+            ) : (
+              <a
+                href="https://github.com/mustafa-bilen"
+                alt="link"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                React Developer
+              </a>
+            )}
+          </p>
           <div className="mt-2 flex gap-3">
             <Icons icon={<FiTwitter />} />
             <Icons icon={<FiFacebook />} />

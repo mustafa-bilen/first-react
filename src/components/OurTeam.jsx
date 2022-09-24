@@ -12,7 +12,7 @@ const OurTeam = () => {
         </p>
       </div>
       {/* sa */}
-      <div className="düzenlencek">
+      <div className="flex flex-col sm:flex-row max-w-[50rem] sm:max-w-[55rem] md:max-w-[60rem] mx-auto justify-between items-center gap-[3rem]">
         {/*  */}
         <OurTeamCart
           name="Frank-Mentor"
@@ -21,7 +21,6 @@ const OurTeam = () => {
         />
         <OurTeamCart
           name="Mustafa Bilen"
-          talent="React Developer"
           image="https://ca.slack-edge.com/T03LBL87DA8-U03SCRR0XKJ-afef675115ce-512"
         />
         <OurTeamCart
